@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    height: 0vh;
+    padding: 0.6rem;
+    background-color: hsl(240, 26%, 11%);
+    color: hsl(240, 100%, 94%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.container > div {
+    background-color: hsl(240, 26%, 16%);
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid hsl(240, 26%, 60%); /* Add a 1px solid border with a gray color */
+    transition: border-color 0.3s ease-out; /* Add a transition effect to the border-color property */
+    z-index: 2;
+}
+
+.container > div:hover {
+    border-color: hsl(240, 66%, 80%); /* Change the border color on hover */
+  }
+
+a {
+    text-decoration: none;
+    color: hsl(240, 66%, 80%);
+}
+  
+a:hover {
+    color: hsl(240, 86%, 70%);
+}

@@ -2,7 +2,7 @@
 .photo-grid {  
   /* Set grid layout with a gap between items */
   display: grid;  
-  gap: 1rem;  
+  gap: 1em;  
 
   /* Define columns to fit container's width, minimum column width 240px */
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
