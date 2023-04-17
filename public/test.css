@@ -18,6 +18,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     margin: 1em;
+    height: 100vh;
 }
 
 .page > div {
@@ -44,20 +45,19 @@ a:hover {
 }
 
 .blob {
-    background: linear-gradient(
-        to right,
-        aquamarine,
-        mediumpurple
-      );
-    height: 15rem;
-    width: 15rem;
+    background: linear-gradient(to right, aquamarine, mediumpurple);
+    height: 20rem;
+    width: 20rem;
     position: absolute;
     left: 50%;
     top: 50%;
     border-radius: 50%;
     z-index: 1;
     animation: rotate 10s linear infinite;
+    filter: blur(50px);
+    transform: translate(-50%, -50%);
 }
+
 
 @keyframes rotate {
     from {
@@ -70,11 +70,10 @@ a:hover {
 }
 
 #blur {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
     z-index: 2;
-    backdrop-filter: blur(100px);
-    overflow: hidden;
+    backdrop-filter: blur(50px);
     margin: 0em;
 }
