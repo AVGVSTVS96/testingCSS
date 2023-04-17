@@ -47,7 +47,7 @@ a:hover {
 .blob {
     background: linear-gradient(to right, aquamarine, mediumpurple);
     height: 20rem;
-    width: 20rem;
+    width: 26rem;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -75,5 +75,4 @@ a:hover {
     position: absolute;
     z-index: 2;
     backdrop-filter: blur(50px);
-    margin: 0em;
 }
