@@ -15,7 +15,7 @@ body {
 
 .page {
   display: grid;
-  grid-template-columns: repeat(3, 20em);
+  grid-template-columns: repeat(3, minmax(10rem, 20rem));
   gap: 1rem;
   margin: 1em;
   height: 100vh;
@@ -31,7 +31,6 @@ body {
   z-index: 2;
   height: 16rem;
   opacity: 0.8; 
-  max-width: 20rem;
   margin: 0 auto;
 }
 
