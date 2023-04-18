@@ -25,15 +25,21 @@ body {
     background-color: hsl(240, 26%, 16%);
     padding: 1rem;
     border-radius: 5px;
-    border: 1px solid hsl(240, 26%, 60%); /* Add a 1px solid border with a gray color */
-    transition: border-color 0.3s ease-out; /* Add a transition effect to the border-color property */
+    border: 3px solid hsl(240, 26%, 60%); /* Add a 1px solid border with a gray color */
+    transition: border-color 0.4s ease-in-out, transform 0.4s ease-in-out;
     z-index: 2;
     height: 16rem;
+    opacity: 0.8;
 }
 
 .page > div:hover {
-    border-color: hsl(240, 66%, 80%); /* Change the border color on hover */
-  }
+    border-color: hsl(220, 100%, 80%); /* Change the border color on hover */
+    transform: scale(1.007); /* Increase the size by 10% */
+}
+
+.heading {
+    margin-top: 0px;
+}
 
 a {
     text-decoration: none;
