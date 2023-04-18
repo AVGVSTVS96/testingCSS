@@ -31,7 +31,7 @@ body {
   transition-delay: 100ms;
   z-index: 2;
   height: 16rem;
-  opacity: 0.8; 
+  opacity: 0.8;
   margin: 0 auto;
   box-shadow: 0 8px 32px 0 hsla(240, 33%, 20%, 0.37);
 }
@@ -64,7 +64,7 @@ a:hover {
   border-radius: 50%;
   z-index: 1;
   animation: rotate 10s linear infinite;
-  filter: blur(50px); 
+  filter: blur(50px);
   transform: translate(-50%, -50%);
 }
 
