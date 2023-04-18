@@ -15,10 +15,11 @@ body {
 
 .page {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 20em);
   gap: 1rem;
   margin: 1em;
   height: 100vh;
+  justify-content: center;
 }
 
 .page > div {
@@ -30,6 +31,8 @@ body {
   z-index: 2;
   height: 16rem;
   opacity: 0.8; 
+  max-width: 20rem;
+  margin: 0 auto;
 }
 
 .page > div:hover {
