@@ -24,12 +24,12 @@ body {
 .page > div {
   background-color: hsl(240, 26%, 16%);
   padding: 1rem;
-  border-radius: 5px;
+  border-radius: 9px;
   border: 3px solid hsl(240, 26%, 60%); /* Add a 1px solid border with a gray color */
   transition: border-color 0.4s ease-in-out, transform 0.4s ease-in-out;
   z-index: 2;
   height: 16rem;
-  opacity: 0.8;
+  opacity: 0.8; 
 }
 
 .page > div:hover {
