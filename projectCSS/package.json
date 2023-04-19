@@ -2,9 +2,11 @@
   "name": "projectcss",
   "version": "0.1.0",
   "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build test.html"
+    "build": "parcel build test.html",
+    "parcel": "parcel test.html"
   },
   "keywords": [],
   "author": "",
