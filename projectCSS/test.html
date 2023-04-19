@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Getting started with CSS</title>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="test.css" />
   </head>
   <body>
     <div class="blob" id="blob"></div>
@@ -54,5 +54,9 @@
         { duration: 3000, fill: "forwards" }
       );
     };
+    
+    if (module.hot) {
+      module.hot.accept();
+    }
   </script>
 </html>
