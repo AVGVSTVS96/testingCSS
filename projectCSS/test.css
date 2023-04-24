@@ -33,7 +33,6 @@ body {
   height: 16rem;
   opacity: 0.8;
   margin: 0 auto;
-  box-shadow: 0 10px 50px 10px hsla(240, 33%, 15%, 0.50);
 }
 
 .page > div:hover {
@@ -63,9 +62,10 @@ a:hover {
   top: 50%;
   border-radius: 50%;
   z-index: 1;
-  animation: rotate 10s linear infinite;
+  animation: rotate 5s linear infinite;
   filter: blur(50px);
   transform: translate(-50%, -50%);
+  opacity: 0.8;
 }
 
 @keyframes rotate {
