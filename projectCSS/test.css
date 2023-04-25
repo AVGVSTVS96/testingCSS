@@ -26,7 +26,7 @@ body {
   background-color: hsl(240, 26%, 16%);
   padding: 1rem;
   border-radius: 9px;
-  border: 4px solid hsl(240, 26%, 60%, 0.7); /* Add a 1px solid border with a gray color */
+  border: 4px solid hsl(240, 26%, 60%, 0.7); 
   transition: border-color 0.5s ease-in-out, transform 0.5s ease-in-out;
   transition-delay: 100ms;
   z-index: 2;
@@ -36,8 +36,8 @@ body {
 }
 
 .page > div:hover {
-  border-color: hsl(220, 100%, 80%, 0.7); /* Change the border color on hover */
-  transform: scale(1.007); /* Increase the size by 10% */
+  border-color: hsl(220, 100%, 80%, 0.7); 
+  transform: scale(1.007);
 }
 
 .heading {
