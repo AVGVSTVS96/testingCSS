@@ -1,16 +1,12 @@
 body {
   display: grid;
-  height: 100vh;
   background-color: hsl(240, 26%, 11%);
   color: hsl(240, 100%, 94%);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 .page {
@@ -18,7 +14,6 @@ body {
   grid-template-columns: repeat(3, minmax(10rem, 20rem));
   gap: 1rem;
   margin: 1em;
-  height: 100vh;
   justify-content: center;
 }
 
@@ -30,7 +25,6 @@ body {
   transition: border-color 0.5s ease-in-out, transform 0.5s ease-in-out;
   transition-delay: 100ms;
   z-index: 2;
-  height: 16rem;
   opacity: 0.8;
   margin: 0 auto;
 }
